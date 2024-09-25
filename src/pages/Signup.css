@@ -1,0 +1,94 @@
+
+
+.signup-container{
+    width:50%;
+    margin-left: 25%;
+  
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+form p {
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.show-password-btn {
+  background-color: transparent;
+  border: none;
+  color: #4CAF50;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 5px;
+  align-self: flex-end;
+}
+
+.loginbtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.loginbtn:hover {
+  background-color: #45a049;
+}
+.warning{
+  margin-top: 10px;
+}
+/* Responsive Design */
+@media (max-width: 780px) {
+  .signup-container {
+   
+    width:70%;
+    margin-left: 16%;
+    
+  }
+
+  input[type="email"],
+  input[type="password"],
+  .signupbtn {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  form p {
+    font-size: 0.8rem;
+  }
+}
